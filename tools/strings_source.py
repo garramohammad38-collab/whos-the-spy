@@ -117,5 +117,5 @@ S = {
 'store.benefit.words': ('أكثر من 1000 كلمة، يعني جولات بدون تكرار', '1,000+ words, so rounds never repeat'),
 }
 INFO = {
-'CFBundleDisplayName': ('مين الجاسوس؟', "Who's the Spy?"),
+'CFBundleDisplayName': ('مين الجاسوس؟', 'مين الجاسوس؟'),
 }
