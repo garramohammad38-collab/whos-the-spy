@@ -114,8 +114,11 @@ final class FlowUITests: XCTestCase {
         app.buttons["settingsButton"].tap()
         XCTAssertTrue(app.buttons["language.en"].waitForExistence(timeout: 5))
         app.buttons["language.en"].tap()
+        XCTAssertTrue(app.buttons["backButton"].waitForExistence(timeout: 5))
         app.buttons["backButton"].tap()
-        XCTAssertTrue(app.staticTexts["Who's the Spy?"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["deck.places"].waitForExistence(timeout: 10))
+        let title = app.staticTexts.matching(NSPredicate(format: "label CONTAINS[c] %@", "Spy")).firstMatch
+        XCTAssertTrue(title.waitForExistence(timeout: 10), "home title should switch to English")
     }
 
     func testPlayerCountLimits() {
