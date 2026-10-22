@@ -5,7 +5,7 @@
 
 definitions:
   env: &env
-    APP_STORE_APPLE_ID: "0000000000"   # set after creating the app in App Store Connect
+    APP_STORE_APPLE_ID: "6825827341"
     BUNDLE_ID: com.garra.whosthespy
   scripts:
     - &generate_project
