@@ -1,0 +1,12 @@
+*.xcodeproj/
+build/
+DerivedData/
+.DS_Store
+xcuserdata/
+tools/__pycache__/
+SpyGame/Info.plist
+SpyGame/Resources/*.lproj/
+SpyGame/Resources/cards.json
+SpyGame/Resources/Sounds/
+SpyGame/Resources/Assets.xcassets/AppIcon.appiconset/*.png
+SpyGame/Resources/Assets.xcassets/LaunchLogo.imageset/*.png

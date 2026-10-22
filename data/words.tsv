@@ -1,0 +1,504 @@
+# Party decks. Columns (tab separated): deck  difficulty(1-3)  english  arabic
+# animals
+animals	1	Lion	أسد
+animals	1	Elephant	فيل
+animals	1	Cat	قطة
+animals	1	Dog	كلب
+animals	1	Horse	حصان
+animals	1	Camel	جمل
+animals	1	Monkey	قرد
+animals	1	Giraffe	زرافة
+animals	1	Rabbit	أرنب
+animals	1	Chicken	دجاجة
+animals	1	Cow	بقرة
+animals	1	Sheep	خروف
+animals	1	Fish	سمكة
+animals	1	Snake	أفعى
+animals	1	Tiger	نمر
+animals	1	Bear	دب
+animals	1	Duck	بطة
+animals	1	Frog	ضفدع
+animals	1	Donkey	حمار
+animals	1	Goat	ماعز
+animals	1	Mouse	فأر
+animals	1	Butterfly	فراشة
+animals	1	Dolphin	دلفين
+animals	1	Shark	قرش
+animals	2	Penguin	بطريق
+animals	2	Crocodile	تمساح
+animals	2	Kangaroo	كنغر
+animals	2	Zebra	حمار وحشي
+animals	2	Owl	بومة
+animals	2	Eagle	نسر
+animals	2	Parrot	ببغاء
+animals	2	Turtle	سلحفاة
+animals	2	Bee	نحلة
+animals	2	Ant	نملة
+animals	2	Spider	عنكبوت
+animals	2	Wolf	ذئب
+animals	2	Fox	ثعلب
+animals	2	Gorilla	غوريلا
+animals	2	Hippopotamus	فرس النهر
+animals	2	Peacock	طاووس
+animals	2	Octopus	أخطبوط
+animals	2	Whale	حوت
+animals	2	Scorpion	عقرب
+animals	2	Pigeon	حمامة
+animals	2	Squirrel	سنجاب
+animals	2	Deer	غزال
+animals	2	Bat	خفاش
+animals	2	Rooster	ديك
+animals	3	Rhinoceros	وحيد القرن
+animals	3	Panda	باندا
+animals	3	Koala	كوالا
+animals	3	Hedgehog	قنفذ
+animals	3	Flamingo	فلامنغو
+animals	3	Chameleon	حرباء
+animals	3	Jellyfish	قنديل البحر
+animals	3	Seahorse	حصان البحر
+animals	3	Hyena	ضبع
+animals	3	Ostrich	نعامة
+animals	3	Mosquito	بعوضة
+animals	3	Snail	حلزون
+animals	3	Lobster	كركند
+animals	3	Woodpecker	نقار الخشب
+animals	3	Cheetah	فهد
+animals	3	Falcon	صقر
+# countries
+countries	1	Egypt	مصر
+countries	1	Saudi Arabia	السعودية
+countries	1	Morocco	المغرب
+countries	1	Brazil	البرازيل
+countries	1	France	فرنسا
+countries	1	Spain	إسبانيا
+countries	1	Italy	إيطاليا
+countries	1	Germany	ألمانيا
+countries	1	Turkey	تركيا
+countries	1	Japan	اليابان
+countries	1	China	الصين
+countries	1	United States	أمريكا
+countries	1	England	إنجلترا
+countries	1	Jordan	الأردن
+countries	1	Palestine	فلسطين
+countries	1	Lebanon	لبنان
+countries	1	Syria	سوريا
+countries	1	Iraq	العراق
+countries	1	United Arab Emirates	الإمارات
+countries	1	Qatar	قطر
+countries	1	Kuwait	الكويت
+countries	1	Algeria	الجزائر
+countries	1	Tunisia	تونس
+countries	1	India	الهند
+countries	1	Russia	روسيا
+countries	2	Argentina	الأرجنتين
+countries	2	Portugal	البرتغال
+countries	2	Mexico	المكسيك
+countries	2	Canada	كندا
+countries	2	Australia	أستراليا
+countries	2	Greece	اليونان
+countries	2	Netherlands	هولندا
+countries	2	Switzerland	سويسرا
+countries	2	Sweden	السويد
+countries	2	Oman	عُمان
+countries	2	Bahrain	البحرين
+countries	2	Yemen	اليمن
+countries	2	Libya	ليبيا
+countries	2	Sudan	السودان
+countries	2	South Korea	كوريا الجنوبية
+countries	2	Indonesia	إندونيسيا
+countries	2	Pakistan	باكستان
+countries	2	Iran	إيران
+countries	2	Nigeria	نيجيريا
+countries	2	South Africa	جنوب أفريقيا
+countries	2	Belgium	بلجيكا
+countries	2	Croatia	كرواتيا
+countries	2	Malaysia	ماليزيا
+countries	3	Mauritania	موريتانيا
+countries	3	Somalia	الصومال
+countries	3	Djibouti	جيبوتي
+countries	3	Comoros	جزر القمر
+countries	3	Iceland	آيسلندا
+countries	3	Norway	النرويج
+countries	3	Finland	فنلندا
+countries	3	New Zealand	نيوزيلندا
+countries	3	Chile	تشيلي
+countries	3	Colombia	كولومبيا
+countries	3	Peru	بيرو
+countries	3	Thailand	تايلاند
+countries	3	Vietnam	فيتنام
+countries	3	Ethiopia	إثيوبيا
+countries	3	Kenya	كينيا
+countries	3	Cuba	كوبا
+# food
+food	1	Pizza	بيتزا
+food	1	Burger	برغر
+food	1	Falafel	فلافل
+food	1	Hummus	حمص
+food	1	Shawarma	شاورما
+food	1	Rice	أرز
+food	1	Bread	خبز
+food	1	Cheese	جبنة
+food	1	Egg	بيضة
+food	1	Apple	تفاحة
+food	1	Banana	موزة
+food	1	Watermelon	بطيخ
+food	1	Orange	برتقالة
+food	1	Ice cream	بوظة
+food	1	Chocolate	شوكولاتة
+food	1	Cake	كعكة
+food	1	French fries	بطاطا مقلية
+food	1	Soup	شوربة
+food	1	Salad	سلطة
+food	1	Pasta	معكرونة
+food	1	Milk	حليب
+food	1	Coffee	قهوة
+food	1	Tea	شاي
+food	1	Dates	تمر
+food	2	Mansaf	منسف
+food	2	Maqluba	مقلوبة
+food	2	Musakhan	مسخن
+food	2	Knafeh	كنافة
+food	2	Baklava	بقلاوة
+food	2	Tabbouleh	تبولة
+food	2	Fattoush	فتوش
+food	2	Kebab	كباب
+food	2	Stuffed grape leaves	ورق عنب
+food	2	Kabsa	كبسة
+food	2	Koshari	كشري
+food	2	Mulukhiyah	ملوخية
+food	2	Sushi	سوشي
+food	2	Popcorn	فشار
+food	2	Donut	دونات
+food	2	Pancakes	بان كيك
+food	2	Sandwich	ساندويش
+food	2	Strawberry	فراولة
+food	2	Mango	مانجا
+food	2	Grapes	عنب
+food	2	Lemon	ليمون
+food	2	Tomato	بندورة
+food	2	Cucumber	خيار
+food	2	Pomegranate	رمان
+food	3	Shakshuka	شكشوكة
+food	3	Foul	فول
+food	3	Couscous	كسكس
+food	3	Tagine	طاجين
+food	3	Kibbeh	كبة
+food	3	Labneh	لبنة
+food	3	Zaatar	زعتر
+food	3	Qatayef	قطايف
+food	3	Basbousa	بسبوسة
+food	3	Avocado	أفوكادو
+food	3	Pineapple	أناناس
+food	3	Eggplant	باذنجان
+food	3	Mushroom	فطر
+food	3	Croissant	كرواسون
+food	3	Waffle	وافل
+food	3	Lasagna	لازانيا
+# jobs
+jobs	1	Doctor	طبيب
+jobs	1	Nurse	ممرض
+jobs	1	Teacher	معلم
+jobs	1	Police officer	شرطي
+jobs	1	Firefighter	إطفائي
+jobs	1	Chef	طباخ
+jobs	1	Driver	سائق
+jobs	1	Pilot	طيار
+jobs	1	Farmer	مزارع
+jobs	1	Barber	حلاق
+jobs	1	Football player	لاعب كرة قدم
+jobs	1	Singer	مغني
+jobs	1	Actor	ممثل
+jobs	1	Dentist	طبيب أسنان
+jobs	1	Baker	خباز
+jobs	1	Painter	رسام
+jobs	1	Engineer	مهندس
+jobs	1	Waiter	نادل
+jobs	1	Soldier	جندي
+jobs	1	Student	طالب
+jobs	2	Lawyer	محامي
+jobs	2	Judge	قاضي
+jobs	2	Pharmacist	صيدلي
+jobs	2	Photographer	مصور
+jobs	2	Carpenter	نجار
+jobs	2	Electrician	كهربائي
+jobs	2	Plumber	سباك
+jobs	2	Mechanic	ميكانيكي
+jobs	2	Tailor	خياط
+jobs	2	Butcher	لحام
+jobs	2	Fisherman	صياد سمك
+jobs	2	Astronaut	رائد فضاء
+jobs	2	Referee	حكم
+jobs	2	Coach	مدرب
+jobs	2	Journalist	صحفي
+jobs	2	Programmer	مبرمج
+jobs	2	Cashier	كاشير
+jobs	2	Mail carrier	ساعي البريد
+jobs	2	Security guard	حارس أمن
+jobs	2	Veterinarian	طبيب بيطري
+jobs	2	Flight attendant	مضيف طيران
+jobs	2	Hairdresser	كوافير
+jobs	3	Archaeologist	عالم آثار
+jobs	3	Surgeon	جراح
+jobs	3	Architect	مهندس معماري
+jobs	3	Accountant	محاسب
+jobs	3	Translator	مترجم
+jobs	3	Magician	ساحر
+jobs	3	Clown	مهرج
+jobs	3	Detective	محقق
+jobs	3	Lifeguard	منقذ
+jobs	3	Sculptor	نحات
+jobs	3	Scientist	عالم
+jobs	3	Paramedic	مسعف
+jobs	3	Blacksmith	حداد
+jobs	3	Jeweler	صائغ
+jobs	3	Gardener	بستاني
+jobs	3	Diver	غواص
+jobs	3	Ambassador	سفير
+jobs	3	YouTuber	يوتيوبر
+jobs	3	Commentator	معلق رياضي
+jobs	3	Captain	قبطان
+# things
+things	1	Phone	جوال
+things	1	Television	تلفزيون
+things	1	Chair	كرسي
+things	1	Table	طاولة
+things	1	Bed	سرير
+things	1	Door	باب
+things	1	Window	شباك
+things	1	Key	مفتاح
+things	1	Car	سيارة
+things	1	Bicycle	بسكليت
+things	1	Ball	طابة
+things	1	Clock	ساعة
+things	1	Glasses	نظارة
+things	1	Shoes	حذاء
+things	1	Umbrella	شمسية
+things	1	Pen	قلم
+things	1	Book	كتاب
+things	1	Bag	شنطة
+things	1	Spoon	ملعقة
+things	1	Cup	كاسة
+things	1	Pillow	مخدة
+things	1	Lamp	لمبة
+things	1	Mirror	مراية
+things	1	Toothbrush	فرشاة أسنان
+things	2	Refrigerator	ثلاجة
+things	2	Washing machine	غسالة
+things	2	Air conditioner	مكيف
+things	2	Laptop	لابتوب
+things	2	Headphones	سماعات
+things	2	Remote control	ريموت
+things	2	Scissors	مقص
+things	2	Camera	كاميرا
+things	2	Guitar	جيتار
+things	2	Drum	طبلة
+things	2	Ladder	سلم
+things	2	Candle	شمعة
+things	2	Blanket	بطانية
+things	2	Wallet	محفظة
+things	2	Comb	مشط
+things	2	Hammer	شاكوش
+things	2	Balloon	بالون
+things	2	Kite	طيارة ورق
+things	2	Airplane	طيارة
+things	2	Train	قطار
+things	2	Ship	سفينة
+things	2	Helicopter	هليكوبتر
+things	2	Tent	خيمة
+things	2	Suitcase	شنطة سفر
+things	3	Microwave	ميكروويف
+things	3	Vacuum cleaner	مكنسة كهربائية
+things	3	Hair dryer	سشوار
+things	3	Iron	مكواة
+things	3	Calculator	آلة حاسبة
+things	3	Microscope	مجهر
+things	3	Telescope	تلسكوب
+things	3	Compass	بوصلة
+things	3	Hourglass	ساعة رملية
+things	3	Anchor	مرساة
+things	3	Parachute	مظلة هبوط
+things	3	Submarine	غواصة
+things	3	Rocket	صاروخ فضائي
+things	3	Fan	مروحة
+things	3	Stapler	دباسة
+things	3	Thermometer	ميزان حرارة
+things	3	Whistle	صفارة
+things	3	Trophy	كأس
+things	3	Prayer rug	سجادة صلاة
+# arabcelebs
+arabcelebs	1	Amr Diab	عمرو دياب
+arabcelebs	1	Nancy Ajram	نانسي عجرم
+arabcelebs	1	Mohamed Ramadan	محمد رمضان
+arabcelebs	1	Adel Emam	عادل إمام
+arabcelebs	1	Fairuz	فيروز
+arabcelebs	1	Umm Kulthum	أم كلثوم
+arabcelebs	1	Elissa	إليسا
+arabcelebs	1	Haifa Wehbe	هيفاء وهبي
+arabcelebs	1	Tamer Hosny	تامر حسني
+arabcelebs	1	Mohammed Assaf	محمد عساف
+arabcelebs	1	Kadim Al Sahir	كاظم الساهر
+arabcelebs	1	Ragheb Alama	راغب علامة
+arabcelebs	1	Wael Kfoury	وائل كفوري
+arabcelebs	1	Abdel Halim Hafez	عبد الحليم حافظ
+arabcelebs	1	Mohamed Henedy	محمد هنيدي
+arabcelebs	1	Ahmed Helmy	أحمد حلمي
+arabcelebs	1	Sherine	شيرين
+arabcelebs	1	Saad Lamjarred	سعد لمجرد
+arabcelebs	2	Assala	أصالة
+arabcelebs	2	Angham	أنغام
+arabcelebs	2	Hussain Al Jassmi	حسين الجسمي
+arabcelebs	2	Mohammed Abdu	محمد عبده
+arabcelebs	2	Rashed Al Majed	راشد الماجد
+arabcelebs	2	Majida El Roumi	ماجدة الرومي
+arabcelebs	2	Najwa Karam	نجوى كرم
+arabcelebs	2	Nawal El Zoghbi	نوال الزغبي
+arabcelebs	2	George Wassouf	جورج وسوف
+arabcelebs	2	Mohamed Mounir	محمد منير
+arabcelebs	2	Ahmed Ezz	أحمد عز
+arabcelebs	2	Karim Abdel Aziz	كريم عبد العزيز
+arabcelebs	2	Yousra	يسرا
+arabcelebs	2	Hend Sabry	هند صبري
+arabcelebs	2	Duraid Lahham	دريد لحام
+arabcelebs	2	Taim Hasan	تيم حسن
+arabcelebs	2	Nadine Nassib Njeim	نادين نسيب نجيم
+arabcelebs	2	Mohamed Hamaki	محمد حماقي
+arabcelebs	2	Balqees	بلقيس
+arabcelebs	2	Ahlam	أحلام
+arabcelebs	2	Wegz	ويجز
+arabcelebs	2	Myriam Fares	ميريام فارس
+arabcelebs	3	Omar Sharif	عمر الشريف
+arabcelebs	3	Faten Hamama	فاتن حمامة
+arabcelebs	3	Soad Hosny	سعاد حسني
+arabcelebs	3	Ismail Yassine	إسماعيل ياسين
+arabcelebs	3	Wadih El Safi	وديع الصافي
+arabcelebs	3	Sabah	صباح
+arabcelebs	3	Warda	وردة الجزائرية
+arabcelebs	3	Farid al-Atrash	فريد الأطرش
+arabcelebs	3	Abdullah Al Rowaished	عبد الله الرويشد
+arabcelebs	3	Marwan Khoury	مروان خوري
+arabcelebs	3	Melhem Zein	ملحم زين
+arabcelebs	3	Ahmed Zaki	أحمد زكي
+arabcelebs	3	Nour El-Sherif	نور الشريف
+arabcelebs	3	Yasmine Abdulaziz	ياسمين عبد العزيز
+arabcelebs	3	Mona Zaki	منى زكي
+arabcelebs	3	Bassel Khayyat	باسل خياط
+arabcelebs	3	Abed Fahd	عابد فهد
+arabcelebs	3	Latifa	لطيفة
+arabcelebs	3	Cheb Khaled	الشاب خالد
+arabcelebs	3	Marwan Pablo	مروان بابلو
+# movies
+movies	1	Titanic	تايتانك
+movies	1	Spider-Man	سبايدر مان
+movies	1	Batman	باتمان
+movies	1	Superman	سوبرمان
+movies	1	Harry Potter	هاري بوتر
+movies	1	Avatar	أفاتار
+movies	1	The Lion King	الأسد الملك
+movies	1	Frozen	فروزن
+movies	1	Toy Story	حكاية لعبة
+movies	1	Fast and Furious	السريع والغاضب
+movies	1	Iron Man	الرجل الحديدي
+movies	1	Avengers	المنتقمون
+movies	1	Jurassic Park	الحديقة الجوراسية
+movies	1	Aladdin	علاء الدين
+movies	1	Home Alone	وحدي في المنزل
+movies	1	Star Wars	حرب النجوم
+movies	1	Shrek	شريك
+movies	1	Mr. Bean	مستر بين
+movies	2	The Godfather	العراب
+movies	2	Squid Game	لعبة الحبار
+movies	2	Money Heist	لا كاسا دي بابيل
+movies	2	Game of Thrones	صراع العروش
+movies	2	Prison Break	بريزن بريك
+movies	2	Breaking Bad	بريكنج باد
+movies	2	Pirates of the Caribbean	قراصنة الكاريبي
+movies	2	The Lord of the Rings	سيد الخواتم
+movies	2	Mission: Impossible	المهمة المستحيلة
+movies	2	James Bond	جيمس بوند
+movies	2	Transformers	المتحولون
+movies	2	Kung Fu Panda	كونغ فو باندا
+movies	2	Finding Nemo	البحث عن نيمو
+movies	2	The Matrix	ماتريكس
+movies	2	Joker	الجوكر
+movies	2	Rocky	روكي
+movies	2	King Kong	كينغ كونغ
+movies	2	Godzilla	غودزيلا
+movies	2	Bab Al-Hara	باب الحارة
+movies	2	Al Hayba	الهيبة
+movies	2	The Message	الرسالة
+movies	3	Inception	البداية
+movies	3	Interstellar	إنترستيلر
+movies	3	Gladiator	المصارع
+movies	3	Forrest Gump	فورست غامب
+movies	3	The Terminator	المدمر
+movies	3	Jaws	الفك المفترس
+movies	3	Ghostbusters	صائدو الأشباح
+movies	3	Back to the Future	العودة إلى المستقبل
+movies	3	Peaky Blinders	بيكي بلايندرز
+movies	3	Friends	فريندز
+movies	3	Stranger Things	أشياء غريبة
+movies	3	Wednesday	وينزداي
+movies	3	Omar Mukhtar	عمر المختار
+movies	3	Al-Kabeer Awi	الكبير أوي
+movies	3	El Sa'eedi fi Gamaat Amrika	صعيدي في الجامعة الأمريكية
+movies	3	Al-Irhab wal Kabab	الإرهاب والكباب
+movies	3	Oppenheimer	أوبنهايمر
+movies	3	Barbie	باربي
+movies	3	Dune	كثيب
+# cartoons
+cartoons	1	Tom and Jerry	توم وجيري
+cartoons	1	Mickey Mouse	ميكي ماوس
+cartoons	1	SpongeBob	سبونج بوب
+cartoons	1	Captain Majid	كابتن ماجد
+cartoons	1	Grendizer	جريندايزر
+cartoons	1	Pokemon	بوكيمون
+cartoons	1	Pikachu	بيكاتشو
+cartoons	1	Sonic	سونيك
+cartoons	1	Mario	ماريو
+cartoons	1	Popeye	باباي
+cartoons	1	Scooby-Doo	سكوبي دو
+cartoons	1	The Smurfs	السنافر
+cartoons	1	Donald Duck	بطوط
+cartoons	1	Detective Conan	المحقق كونان
+cartoons	1	Dora	دورا
+cartoons	1	Peppa Pig	بيبا بيغ
+cartoons	1	Winnie the Pooh	ويني الدبدوب
+cartoons	1	Bugs Bunny	باغز باني
+cartoons	2	Hello Kitty	هالو كيتي
+cartoons	2	Doraemon	دورايمون
+cartoons	2	Naruto	ناروتو
+cartoons	2	Dragon Ball	دراغون بول
+cartoons	2	One Piece	ون بيس
+cartoons	2	The Simpsons	عائلة سيمبسون
+cartoons	2	Ben 10	بن 10
+cartoons	2	Lightning McQueen	ماكوين
+cartoons	2	Minions	المينيونز
+cartoons	2	Garfield	غارفيلد
+cartoons	2	Pink Panther	النمر الوردي
+cartoons	2	Snow White	بياض الثلج
+cartoons	2	Cinderella	سندريلا
+cartoons	2	Pinocchio	بينوكيو
+cartoons	2	Woody Woodpecker	نقار الخشب
+cartoons	2	Remi	ريمي
+cartoons	2	Sally	سالي
+cartoons	2	Heidi	هايدي
+cartoons	2	Adnan and Lena	عدنان ولينا
+cartoons	2	Alice in Wonderland	أليس في بلاد العجائب
+cartoons	3	Treasure Island	جزيرة الكنز
+cartoons	3	Sinbad	سندباد
+cartoons	3	Lady Oscar	ليدي أوسكار
+cartoons	3	Hunter x Hunter	القناص
+cartoons	3	Attack on Titan	هجوم العمالقة
+cartoons	3	Avatar: The Last Airbender	أفاتار أسطورة آنج
+cartoons	3	Tintin	تان تان
+cartoons	3	Asterix	أستريكس
+cartoons	3	Lucky Luke	لاكي لوك
+cartoons	3	The Jungle Book	كتاب الأدغال
+cartoons	3	Chip and Dale	تشيب وديل
+cartoons	3	Road Runner	رود رانر
+cartoons	3	Inspector Gadget	المفتش كادجيت
+cartoons	3	Flintstones	عائلة فلينستون
+cartoons	3	Mulan	مولان
+cartoons	3	Moana	موانا
+cartoons	3	Rapunzel	رابونزل
+cartoons	3	Abu Mahjoob	أبو محجوب

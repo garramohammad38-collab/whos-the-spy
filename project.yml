@@ -1,0 +1,92 @@
+name: SpyGame
+options:
+  bundleIdPrefix: com.garra
+  deploymentTarget:
+    iOS: "16.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+  xcodeVersion: "16.0"
+
+settings:
+  base:
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    ENABLE_USER_SCRIPT_SANDBOXING: NO
+    VERSIONING_SYSTEM: apple-generic
+
+targets:
+  SpyGame:
+    type: application
+    platform: iOS
+    sources:
+      - path: SpyGame
+    info:
+      path: SpyGame/Info.plist
+      properties:
+        CFBundleDisplayName: "Who's the Spy?"
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations: [en, ar]
+        ITSAppUsesNonExemptEncryption: false
+        LSRequiresIPhoneOS: true
+        UIRequiresFullScreen: true
+        UIUserInterfaceStyle: Light
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIRequiredDeviceCapabilities: [arm64]
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+          UIImageName: LaunchLogo
+          UIImageRespectsSafeAreaInsets: true
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.garra.whosthespy
+        PRODUCT_NAME: SpyGame
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_STYLE: Automatic
+
+  SpyGameTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: SpyGameTests
+    dependencies:
+      - target: SpyGame
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.garra.whosthespy.tests
+        GENERATE_INFOPLIST_FILE: YES
+
+  SpyGameUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: SpyGameUITests
+    dependencies:
+      - target: SpyGame
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.garra.whosthespy.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: SpyGame
+
+schemes:
+  SpyGame:
+    build:
+      targets:
+        SpyGame: all
+        SpyGameTests: [test]
+        SpyGameUITests: [test]
+    test:
+      gatherCoverageData: false
+      targets:
+        - SpyGameTests
+        - SpyGameUITests

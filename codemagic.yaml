@@ -1,0 +1,97 @@
+# Codemagic CI for «مين الجاسوس؟» (no Mac needed).
+# ios-all     : tests + App Store screenshots + signed build -> App Store Connect (one run, saves minutes)
+# ios-release : signed build only
+# Nothing here ever submits the app for review.
+
+definitions:
+  env: &env
+    APP_STORE_APPLE_ID: "0000000000"   # set after creating the app in App Store Connect
+    BUNDLE_ID: com.garra.whosthespy
+  scripts:
+    - &generate_project
+      name: Generate Xcode project (XcodeGen)
+      script: |
+        brew install xcodegen
+        pip3 install pillow pyjwt cryptography || pip3 install --break-system-packages pillow pyjwt cryptography
+        python3 tools/make_assets.py
+        python3 tools/build_cards.py
+        python3 tools/build_strings.py
+        xcodegen generate
+    - &signing
+      name: Use signing profiles
+      script: xcode-project use-profiles --project SpyGame.xcodeproj
+    - &build_number
+      name: Build number
+      script: |
+        LATEST=$(app-store-connect get-latest-testflight-build-number "$APP_STORE_APPLE_ID" 2>/dev/null | tail -1 | tr -dc '0-9')
+        agvtool new-version -all $(( ${LATEST:-0} + 1 ))
+    - &build_ipa
+      name: Build ipa
+      script: xcode-project build-ipa --project SpyGame.xcodeproj --scheme SpyGame
+
+workflows:
+  ios-all:
+    name: Tests + screenshots + TestFlight build
+    max_build_duration: 75
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: RISHUI_ASC_KEY
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.garra.whosthespy
+      vars: *env
+      xcode: latest
+    scripts:
+      - *generate_project
+      - name: Run all tests and capture screenshots
+        script: |
+          SIM=$(xcrun simctl list devices available | grep -E "iPhone [0-9]+ Pro Max" | tail -1 | sed -E 's/^ *//; s/ \(.*//')
+          echo "Simulator: $SIM"
+          mkdir -p build/screenshots
+          set -o pipefail
+          TEST_RUNNER_SCREENSHOT_DIR="$CM_BUILD_DIR/build/screenshots" \
+          xcodebuild test -project SpyGame.xcodeproj -scheme SpyGame \
+            -destination "platform=iOS Simulator,name=$SIM" \
+            -resultBundlePath build/TestResults.xcresult \
+            CODE_SIGNING_ALLOWED=NO | tail -60
+        test_report: build/TestResults.xcresult
+      - name: Prepare and upload screenshots (never submits)
+        script: |
+          python3 tools/prepare_screenshots.py build/screenshots build/shots
+          python3 tools/upload_screenshots.py build/shots $BUNDLE_ID || echo "screenshot upload skipped"
+          python3 tools/upload_review_shot.py build/shots/extra/ar-8-store.png $BUNDLE_ID || echo "review shot skipped"
+      - *signing
+      - *build_number
+      - *build_ipa
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - build/shots/**/*.png
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: false
+
+  ios-release:
+    name: Signed build -> App Store Connect
+    max_build_duration: 45
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: RISHUI_ASC_KEY
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.garra.whosthespy
+      vars: *env
+      xcode: latest
+    scripts:
+      - *generate_project
+      - *signing
+      - *build_number
+      - *build_ipa
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: false
