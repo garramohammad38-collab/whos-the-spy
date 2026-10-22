@@ -120,8 +120,8 @@ final class FlowUITests: XCTestCase {
 
     func testPlayerCountLimits() {
         let app = launch(language: "en", players: "A,B,C")
-        XCTAssertTrue(app.buttons["deck.animals"].waitForExistence(timeout: 30))
-        app.buttons["deck.animals"].tap()
+        XCTAssertTrue(app.buttons["deck.stars"].waitForExistence(timeout: 30))
+        app.buttons["deck.stars"].tap()
         XCTAssertTrue(app.buttons["removePlayer"].waitForExistence(timeout: 5))
         XCTAssertFalse(app.buttons["removePlayer"].isEnabled, "minimum is 3 players")
         app.buttons["addPlayer"].tap()

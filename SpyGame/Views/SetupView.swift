@@ -150,8 +150,7 @@ struct ChoiceChip: View {
 }
 
 extension View {
-    @ViewBuilder
     func scrollDismissesKeyboardIfAvailable() -> some View {
-        if #available(iOS 16.0, *) { scrollDismissesKeyboard(.interactively) } else { self }
+        scrollDismissesKeyboard(.interactively)
     }
 }
