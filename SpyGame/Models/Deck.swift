@@ -22,7 +22,7 @@ struct CardDatabase: Codable {
 
 /// Home-screen sections.
 enum DeckSection: String, CaseIterable, Identifiable {
-    case football, party
+    case party, football
     var id: String { rawValue }
     var titleKey: String { "section.\(rawValue)" }
     var emoji: String { self == .football ? "⚽" : "🎉" }
@@ -31,8 +31,9 @@ enum DeckSection: String, CaseIterable, Identifiable {
 
 /// A category of secret words. Each maps to a tag in cards.json (`.mix` = every football player).
 enum Deck: String, CaseIterable, Identifiable, Codable {
-    case stars, mix, legends, arab, premier, laliga, seriea, bundesliga, ligue1, saudi
-    case animals, countries, food, jobs, things, arabcelebs, movies, cartoons
+    // Party decks first (owner: less football).
+    case places, animals, games, people, countries, food, jobs, things, arabcelebs, movies, cartoons
+    case stars, legends, arab, mix
 
     static let footballTags: Set<String> = ["stars", "legends", "arab", "premier", "laliga",
                                             "seriea", "bundesliga", "ligue1", "saudi"]
@@ -41,7 +42,7 @@ enum Deck: String, CaseIterable, Identifiable, Codable {
 
     var section: DeckSection {
         switch self {
-        case .stars, .mix, .legends, .arab, .premier, .laliga, .seriea, .bundesliga, .ligue1, .saudi:
+        case .stars, .mix, .legends, .arab:
             return .football
         default:
             return .party
@@ -58,12 +59,9 @@ enum Deck: String, CaseIterable, Identifiable, Codable {
         case .stars: return "⭐"
         case .legends: return "👑"
         case .arab: return "🌙"
-        case .premier: return "🦁"
-        case .laliga: return "☀️"
-        case .seriea: return "🛡️"
-        case .bundesliga: return "⚡"
-        case .ligue1: return "✨"
-        case .saudi: return "🔥"
+        case .places: return "📍"
+        case .games: return "🎮"
+        case .people: return "🌟"
         case .animals: return "🐘"
         case .countries: return "🌍"
         case .food: return "🍕"
@@ -81,12 +79,12 @@ enum Deck: String, CaseIterable, Identifiable, Codable {
         case .stars: return Color(hex: 0xA8E6CF)
         case .legends: return Color(hex: 0xFFB4A2)
         case .arab, .cartoons: return Color(hex: 0xBDE0FE)
-        case .premier, .movies: return Color(hex: 0xFFF3B0)
-        case .laliga, .jobs: return Color(hex: 0xFFD6A5)
-        case .seriea, .arabcelebs: return Color(hex: 0xCDB4DB)
-        case .bundesliga, .food: return Color(hex: 0xFFADAD)
-        case .ligue1, .countries: return Color(hex: 0xA0C4FF)
-        case .saudi, .animals: return Color(hex: 0xCAFFBF)
+        case .games, .movies: return Color(hex: 0xFFF3B0)
+        case .people, .jobs: return Color(hex: 0xFFD6A5)
+        case .arabcelebs: return Color(hex: 0xCDB4DB)
+        case .places, .food: return Color(hex: 0xFFADAD)
+        case .countries: return Color(hex: 0xA0C4FF)
+        case .animals: return Color(hex: 0xCAFFBF)
         }
     }
 

@@ -35,8 +35,8 @@ spy,imposter,party,friends,family,word game,group,football,social,guess
 • والجاسوس عنده فرصة أخيرة يخمّن الكلمة من 8 خيارات
 
 الأقسام:
-⚽ كرة القدم: نجوم اليوم، الأساطير، نجوم العرب، الدوري الإنجليزي والإسباني والإيطالي والألماني والفرنسي والسعودي
-🎉 سهرة: حيوانات، دول، أكلات، مهن، أغراض، مشاهير عرب، أفلام ومسلسلات، كرتون
+سهرة: أماكن، حيوانات، ألعاب، أسماء مشهورة، دول، أكلات، مهن، أغراض، مشاهير عرب، أفلام ومسلسلات، كرتون
+كرة القدم: نجوم اليوم، الأساطير، نجوم العرب، منوّع
 
 مميزات:
 • أكثر من 1000 كلمة بالعربي والإنجليزي
@@ -44,7 +44,7 @@ spy,imposter,party,friends,family,word game,group,football,social,guess
 • نقاط لكل لاعب على عدة جولات
 • بدون إنترنت، بدون حساب، بدون إعلانات
 
-مجاني: قسم «نجوم اليوم» وقسم «حيوانات».
+مجاني: قسم «أماكن» وقسم «حيوانات».
 «الجاسوس بلس» يفتح كل الأقسام باشتراك أسبوعي أو شهري يتجدد تلقائيًا، وبتقدر تلغيه وقت ما بدك من إعدادات حساب App Store.
 
 شروط الاستخدام: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
@@ -67,7 +67,7 @@ Decks: Football (Today's Stars, Legends, Arab Stars, Premier League, La Liga, Se
 • Scores across rounds
 • Works offline, no account, no ads
 
-Free: Today's Stars and Animals. "Spy Plus" unlocks every deck with a weekly or monthly auto-renewing subscription. Cancel anytime in your App Store account settings.
+Free: Places and Animals. "Spy Plus" unlocks every deck with a weekly or monthly auto-renewing subscription. Cancel anytime in your App Store account settings.
 
 Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Privacy Policy: https://garramohammad38-collab.github.io/guess-it/spy.html
@@ -80,4 +80,4 @@ Privacy Policy: https://garramohammad38-collab.github.io/guess-it/spy.html
 Display name ar: «الجاسوس بلس - أسبوعي» / «الجاسوس بلس - شهري»; description: «كل الأقسام مفتوحة».
 
 ## Review notes (en)
-Party game played on a single phone passed between 3–12 people. No login. To test: tap "Today's Stars" (free), tap Start, then tap the red button on each player's turn to see the word (one player sees "You're the spy!"), then Vote, pick a player, confirm, and pick a word as the spy. Locked decks open the subscription screen (weekly / monthly auto-renewable, no trial). Restore and offer-code redemption are on the same screen.
+Party game played on a single phone passed between 3–12 people. No login. To test: tap "Places" (free), tap Start, then tap the red button on each player's turn to see the word (one player sees "You're the spy!"), then Vote, pick a player, confirm, and pick a word as the spy. Locked decks open the subscription screen (weekly / monthly auto-renewable, no trial). Restore and offer-code redemption are on the same screen.

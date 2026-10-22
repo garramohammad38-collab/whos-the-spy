@@ -502,3 +502,187 @@ cartoons	3	Mulan	مولان
 cartoons	3	Moana	موانا
 cartoons	3	Rapunzel	رابونزل
 cartoons	3	Abu Mahjoob	أبو محجوب
+# places
+places	1	Airport	مطار
+places	1	Hospital	مستشفى
+places	1	School	مدرسة
+places	1	University	جامعة
+places	1	Restaurant	مطعم
+places	1	Supermarket	سوبرماركت
+places	1	Bank	بنك
+places	1	Mosque	مسجد
+places	1	Beach	شاطئ البحر
+places	1	Swimming Pool	مسبح
+places	1	Football Stadium	ملعب كرة قدم
+places	1	Cinema	سينما
+places	1	Zoo	حديقة الحيوانات
+places	1	Park	حديقة عامة
+places	1	Gym	نادي رياضي
+places	1	Barber Shop	صالون حلاقة
+places	1	Wedding Hall	قاعة أفراح
+places	1	Gas Station	محطة بنزين
+places	1	Police Station	مركز شرطة
+places	1	Pharmacy	صيدلية
+places	1	Bakery	مخبز
+places	1	Library	مكتبة عامة
+places	1	Museum	متحف
+places	1	Hotel	فندق
+places	1	Train	قطار
+places	1	Bus	باص
+places	1	Airplane	طيارة
+places	1	Ship	سفينة
+places	1	Desert	صحراء
+places	1	Mountain	جبل
+places	1	Forest	غابة
+places	1	Farm	مزرعة
+places	2	Prison	سجن
+places	2	Kitchen	مطبخ
+places	2	Bathroom	حمّام
+places	2	Bedroom	غرفة نوم
+places	2	Office	مكتب
+places	2	Market	سوق
+places	2	Mall	مول
+places	2	Car Wash	مغسلة سيارات
+places	2	Garage	كراج تصليح سيارات
+places	2	Fire Station	مركز إطفاء
+places	2	Post Office	بريد
+places	2	Dentist	عيادة أسنان
+places	2	Kindergarten	روضة أطفال
+places	2	Amusement Park	مدينة ملاهي
+places	2	Circus	سيرك
+places	2	Camp	مخيّم
+places	2	Coffee Shop	مقهى
+places	2	Ice Cream Shop	محل بوظة
+places	2	Shoe Store	محل أحذية
+places	2	Clothes Store	محل ملابس
+places	2	Hair Salon	صالون تجميل
+places	2	Space Station	محطة فضاء
+places	2	Submarine	غواصة
+places	2	Elevator	مصعد
+places	2	Parking Lot	موقف سيارات
+places	2	Rooftop	سطح البيت
+places	2	Balcony	بلكونة
+places	2	Classroom	صف مدرسي
+places	2	Court	محكمة
+places	2	Embassy	سفارة
+places	2	Ski Resort	منتجع تزلج
+places	2	Aquarium	أكواريوم
+# games
+games	1	Chess	شطرنج
+games	1	Backgammon	طاولة زهر
+games	1	Cards	شدة
+games	1	Dominoes	دومينو
+games	1	Monopoly	مونوبولي
+games	1	Hide and Seek	غميضة
+games	1	Tag	مسّاكة
+games	1	Hopscotch	حجلة
+games	1	Marbles	قلول
+games	1	Jump Rope	نط الحبل
+games	1	Tug of War	شد الحبل
+games	1	FIFA	فيفا
+games	1	PUBG	ببجي
+games	1	Fortnite	فورتنايت
+games	1	Minecraft	ماينكرافت
+games	1	Call of Duty	كول أوف ديوتي
+games	1	Mario	ماريو
+games	1	Tetris	تتريس
+games	1	Pac-Man	باك مان
+games	1	Candy Crush	كاندي كراش
+games	1	Subway Surfers	صب واي
+games	1	Clash of Clans	كلاش أوف كلانس
+games	1	Among Us	أمونج أس
+games	1	Roblox	روبلوكس
+games	1	GTA	جاتا
+games	1	Uno	أونو
+games	1	Jenga	جنغا
+games	1	Scrabble	سكرابل
+games	1	Puzzle	بزل
+games	2	Rubik's Cube	مكعب روبيك
+games	2	Crossword	كلمات متقاطعة
+games	2	Sudoku	سودوكو
+games	2	Truth or Dare	صراحة ولا جرأة
+games	2	Charades	بانتومايم
+games	2	Heads Up	جوالك ع راسك
+games	2	Bowling	بولينغ
+games	2	Billiards	بلياردو
+games	2	Darts	سهام
+games	2	Table Tennis	بينغ بونغ
+games	2	Air Hockey	هوكي الطاولة
+games	2	Foosball	فوسبول
+games	2	Karaoke	كاريوكي
+games	2	Musical Chairs	الكراسي الموسيقية
+games	2	Treasure Hunt	البحث عن الكنز
+games	2	Kite	طيارة ورق
+games	2	Spinning Top	بلبل
+games	2	Seesaw	سيسو
+games	2	Swing	مرجوحة
+games	2	Slide	زحليطة
+games	2	Trampoline	ترامبولين
+games	2	Snakes and Ladders	السلم والثعبان
+games	2	Ludo	لودو
+games	2	Paintball	بينتبول
+games	2	Go-Kart	غو كارت
+games	2	Escape Room	غرفة الهروب
+games	2	Bingo	بينغو
+games	2	Video Game Console	بلايستيشن
+# people
+people	1	Albert Einstein	آينشتاين
+people	1	Isaac Newton	نيوتن
+people	1	Leonardo da Vinci	ليوناردو دافنشي
+people	1	Napoleon	نابليون
+people	1	Cleopatra	كليوباترا
+people	1	Saladin	صلاح الدين الأيوبي
+people	1	Ibn Sina	ابن سينا
+people	1	Ibn Battuta	ابن بطوطة
+people	1	Thomas Edison	توماس إديسون
+people	1	Steve Jobs	ستيف جوبز
+people	1	Bill Gates	بيل غيتس
+people	1	Elon Musk	إيلون ماسك
+people	1	Mark Zuckerberg	مارك زوكربيرغ
+people	1	Michael Jackson	مايكل جاكسون
+people	1	Shakira	شاكيرا
+people	1	Taylor Swift	تايلور سويفت
+people	1	Justin Bieber	جاستن بيبر
+people	1	Eminem	إيمينيم
+people	1	Mr. Bean	مستر بين
+people	1	Charlie Chaplin	شارلي شابلن
+people	1	Jackie Chan	جاكي شان
+people	1	Will Smith	ويل سميث
+people	1	Tom Cruise	توم كروز
+people	1	Leonardo DiCaprio	ليوناردو دي كابريو
+people	1	The Rock	ذا روك
+people	1	Muhammad Ali	محمد علي كلاي
+people	1	Mike Tyson	مايك تايسون
+people	1	Usain Bolt	يوسين بولت
+people	1	Michael Jordan	مايكل جوردان
+people	1	Roger Federer	روجر فيدرر
+people	2	Mohamed Salah	محمد صلاح
+people	2	Cristiano Ronaldo	رونالدو
+people	2	Lionel Messi	ميسي
+people	2	Khabib	حبيب نورمحمدوف
+people	2	Neil Armstrong	نيل أرمسترونغ
+people	2	Picasso	بيكاسو
+people	2	Shakespeare	شكسبير
+people	2	Mozart	موتسارت
+people	2	Beethoven	بيتهوفن
+people	2	Nelson Mandela	نيلسون مانديلا
+people	2	Gandhi	غاندي
+people	2	Marie Curie	ماري كوري
+people	2	Agatha Christie	أغاثا كريستي
+people	2	Naguib Mahfouz	نجيب محفوظ
+people	2	Mahmoud Darwish	محمود درويش
+people	2	Nizar Qabbani	نزار قباني
+people	2	Umm Kulthum	أم كلثوم
+people	2	Abdel Halim Hafez	عبد الحليم حافظ
+people	2	Ahmed Zewail	أحمد زويل
+people	2	Zaha Hadid	زها حديد
+people	2	MrBeast	مستر بيست
+people	2	Walt Disney	والت ديزني
+people	2	Harry Potter	هاري بوتر
+people	2	Sherlock Holmes	شيرلوك هولمز
+people	2	Spider-Man	سبايدرمان
+people	2	Batman	باتمان
+people	2	Superman	سوبرمان
+people	2	Santa Claus	بابا نويل
+people	2	Tarzan	طرزان
+people	2	Aladdin	علاء الدين

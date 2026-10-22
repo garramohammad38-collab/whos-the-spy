@@ -104,8 +104,9 @@ final class SpyEngineTests: XCTestCase {
 final class AppTests: XCTestCase {
     func testFreeTierAndSubscription() {
         var e = Entitlements()
-        XCTAssertTrue(e.isUnlocked(.stars))
+        XCTAssertTrue(e.isUnlocked(.places))
         XCTAssertTrue(e.isUnlocked(.animals))
+        XCTAssertFalse(e.isUnlocked(.stars))
         XCTAssertFalse(e.isUnlocked(.legends))
         XCTAssertFalse(e.isUnlocked(.movies))
         e.owned = [.weekly]
@@ -128,7 +129,7 @@ final class AppTests: XCTestCase {
 
     func testBothLanguagesHaveEveryKey() {
         let ar = Localizer(language: .arabic), en = Localizer(language: .english)
-        for key in ["app.title", "reveal.spyTitle", "vote.title", "store.title", "howto.step5", "category.stars.title"] {
+        for key in ["app.title", "reveal.spyTitle", "vote.title", "store.title", "howto.step5", "category.places.title"] {
             XCTAssertTrue(ar.has(key), key)
             XCTAssertTrue(en.has(key), key)
         }

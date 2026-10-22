@@ -32,10 +32,10 @@ final class FlowUITests: XCTestCase {
         let app = launch(language: lang, players: players)
         let count = players.components(separatedBy: ",").count
 
-        XCTAssertTrue(app.buttons["deck.stars"].waitForExistence(timeout: 30))
+        XCTAssertTrue(app.buttons["deck.places"].waitForExistence(timeout: 30))
         snap("\(lang)-1-home")
 
-        app.buttons["deck.stars"].tap()
+        app.buttons["deck.places"].tap()
         XCTAssertTrue(app.buttons["startButton"].waitForExistence(timeout: 5))
         app.buttons["discussion.3"].tap()
         snap("\(lang)-7-setup")
@@ -87,10 +87,10 @@ final class FlowUITests: XCTestCase {
         let leave = app.alerts.buttons[lang == "ar" ? "اطلع" : "Leave"]
         XCTAssertTrue(leave.waitForExistence(timeout: 5))
         leave.tap()
-        XCTAssertTrue(app.buttons["deck.stars"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["deck.places"].waitForExistence(timeout: 5))
 
         // Locked deck opens the subscription screen.
-        app.buttons["deck.mix"].tap()
+        app.buttons["deck.games"].tap()
         XCTAssertTrue(app.buttons["subscribe.weekly"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.buttons["subscribe.monthly"].exists)
         XCTAssertTrue(app.buttons["restoreButton"].exists)
@@ -120,8 +120,8 @@ final class FlowUITests: XCTestCase {
 
     func testPlayerCountLimits() {
         let app = launch(language: "en", players: "A,B,C")
-        XCTAssertTrue(app.buttons["deck.stars"].waitForExistence(timeout: 30))
-        app.buttons["deck.stars"].tap()
+        XCTAssertTrue(app.buttons["deck.places"].waitForExistence(timeout: 30))
+        app.buttons["deck.places"].tap()
         XCTAssertTrue(app.buttons["removePlayer"].waitForExistence(timeout: 5))
         XCTAssertFalse(app.buttons["removePlayer"].isEnabled, "minimum is 3 players")
         app.buttons["addPlayer"].tap()

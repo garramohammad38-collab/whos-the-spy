@@ -1,5 +1,8 @@
 # Source of truth for UI strings: key -> (Arabic, English). Run tools/build_strings.py.
 S = {
+"category.places.title": ("أماكن", "Places"),
+"category.games.title": ("ألعاب", "Games"),
+"category.people.title": ("أسماء مشهورة", "Famous Names"),
 'category.mix.title': ('منوّع', 'Mix'),
 'category.stars.title': ('نجوم اليوم', "Today's Stars"),
 'category.legends.title': ('الأساطير', 'Legends'),
@@ -110,7 +113,7 @@ S = {
 'result.scores': ('النقاط', 'Scores'),
 'result.home': ('الرئيسية', 'Home'),
 'result.next': ('جولة جديدة', 'Next round'),
-'store.benefit.decks': ('كل الأقسام: الأساطير، نجوم العرب، الدوريات، دول، أكلات، مهن، مشاهير، أفلام وكرتون', 'Every deck: legends, Arab stars, every league, countries, food, jobs, celebrities, movies and cartoons'),
+'store.benefit.decks': ('كل الأقسام: ألعاب، أسماء مشهورة، دول، أكلات، مهن، مشاهير، أفلام، كرتون وكرة القدم', 'Every deck: games, famous names, countries, food, jobs, celebrities, movies, cartoons and football'),
 'store.benefit.words': ('أكثر من 1000 كلمة، يعني جولات بدون تكرار', '1,000+ words, so rounds never repeat'),
 }
 INFO = {

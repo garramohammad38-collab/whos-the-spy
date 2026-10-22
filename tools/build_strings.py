@@ -22,7 +22,7 @@ for lang, i in COLUMN.items():
 src = "\n".join(p.read_text(encoding="utf-8") for p in (ROOT / "SpyGame").rglob("*.swift"))
 used = set(re.findall(r'\bt\(\s*"([a-zA-Z0-9_.]+)"', src))
 decks = re.search(r"case stars, mix.*?\n(.*?)\n", src, re.S)
-cats = ["stars","mix","legends","arab","premier","laliga","seriea","bundesliga","ligue1","saudi",
+cats = ["stars","mix","legends","arab","places","games","people",
         "animals","countries","food","jobs","things","arabcelebs","movies","cartoons"]
 used |= {f"category.{c}.title" for c in cats} | {"section.football", "section.party", "category.count", "category.countCards"}
 used |= {f"store.{k}.{x}" for k in ("weekly", "monthly") for x in ("title", "period")}

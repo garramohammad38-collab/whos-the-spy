@@ -13,8 +13,8 @@ enum StoreProduct: String, CaseIterable, Identifiable {
 }
 
 extension Deck {
-    /// Always free: one football deck and one party deck.
-    static let freeTier: Set<Deck> = [.stars, .animals]
+    /// Always free: Places (the classic spy deck) and Animals.
+    static let freeTier: Set<Deck> = [.places, .animals]
     var isFreeTier: Bool { Self.freeTier.contains(self) }
 }
 

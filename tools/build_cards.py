@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "players.tsv"
 WORDS = ROOT / "data" / "words.tsv"
-DECKS = {"animals", "countries", "food", "jobs", "things", "arabcelebs", "movies", "cartoons"}
+DECKS = {"animals", "countries", "food", "jobs", "things", "arabcelebs", "movies", "cartoons", "places", "games", "people"}
 OUT = ROOT / "SpyGame" / "Resources" / "cards.json"
 
 TAGS = {"stars", "legends", "arab", "premier", "laliga", "seriea", "bundesliga", "ligue1", "saudi"}
